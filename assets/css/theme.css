@@ -1,0 +1,180 @@
+        .container {
+            max-width: 1200px;
+        }
+        
+        .header {
+            background-color: #191919;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .header-inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            justify-content: center;
+        }
+        
+        .navbar .navbar-brand {
+            width: 120px;
+            height: 50px;
+        }
+        
+        .navbar .navbar-brand img {
+            width: 100%;
+        }
+        /* hero */
+        
+        .hero .card-img-overlay {
+            background-color: transparent;
+            padding: 40px 0;
+        }
+        
+        .hero .card-img-overlay .card-title {
+            color: white;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 40px;
+        }
+        
+        .hero .card-img-overlay .card-text {
+            color: white;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 16px;
+            font-weight: 200;
+        }
+        
+        .card-img {
+            height: 170px;
+        }
+        
+        .card {
+            border: none;
+        }
+        /* hero */
+        /* service */
+        
+        .services {
+            padding: 30px 0 40px 0;
+            background-color: #191919;
+        }
+        
+        .services .card {
+            background-color: unset;
+            box-shadow: 2px 2px 5px black;
+            padding: 15px;
+            margin-bottom: 10px;
+            height: 200px;
+        }
+        
+        .services .card-body {
+            padding: 0;
+        }
+        
+        .services span {
+            font-size: 40px;
+            color: #DEA40A;
+        }
+        
+        .services .card-title {
+            color: white;
+            text-align: center;
+            font-family: 'Poppins', sans-serif;
+            font-size: 35px;
+            margin-bottom: 10px;
+        }
+        
+        .services .row .card-title {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            text-align: left;
+        }
+        
+        .services .row .card-text {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+            font-size: 14px;
+            font-weight: 200;
+        }
+        /* service */
+        /* call to action */
+        
+        .call-to-action {
+            padding: 30px 0 40px 0;
+            background-color: #191919;
+            box-shadow: 2px 2px 15px black;
+        }
+        
+        .call-to-action p {
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            text-align: left;
+            font-size: 20px;
+            font-weight: 200;
+            margin: 0;
+            margin-right: 20px;
+        }
+        
+        .call-to-action a {
+            padding: 5px 30px;
+            background-color: #6A6DB0;
+        }
+        
+        .cta-inner {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        /* footer */
+        
+        .footer {
+            padding: 10px 0 10px 0;
+            background-color: #191919;
+            box-shadow: 2px 2px 12px black;
+        }
+        
+        .footer p {
+            text-align: center;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            margin: 0;
+        }
+        
+        @media (max-width: 991.98px) {
+            .col-lg-3 {
+                width: 50%;
+            }
+        }
+        
+        @media (max-width: 575.98px) {
+            .col-lg-3 {
+                width: 100%;
+            }
+            .services .card {
+                padding: 40px;
+                margin-bottom: 15px;
+                height: 200px;
+            }
+            .call-to-action p {
+                font-size: 16px;
+            }
+        }
+        
+        @media (max-width: 500px) {
+            .hero .card-img-overlay .card-title {
+                font-size: 20px;
+            }
+            .hero .card-img-overlay .card-text {
+                font-size: 14px;
+                font-weight: 200;
+            }
+            .call-to-action p {
+                font-size: 14px;
+            }
+        }
