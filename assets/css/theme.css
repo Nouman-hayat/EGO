@@ -168,7 +168,7 @@
         
         @media (max-width: 500px) {
             .hero .card-img-overlay .card-title {
-                 font-size: 30px;
+                 font-size: 28px;
             }
             .hero .card-img-overlay .card-text {
                font-size: 12px;
